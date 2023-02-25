@@ -13,10 +13,13 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+            Text("Welcome to GPA Recorder from Team 10086")
+        }.font(.title)
+            .padding();
+        
+        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
