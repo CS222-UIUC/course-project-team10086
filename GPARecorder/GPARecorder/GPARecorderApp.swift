@@ -11,7 +11,7 @@ import Combine
 struct GPARecorderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewed: true)
             RandomContent()
         }
     }

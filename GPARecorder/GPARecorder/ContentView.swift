@@ -7,7 +7,22 @@
 
 import SwiftUI
 
+class uniTestContent:ObservableObject {
+    @Published var viewed : Bool
+    
+    init(viewed: Bool) {
+        self.viewed = viewed
+    }
+}
+
 struct ContentView: View {
+    
+    @StateObject private var vm : uniTestContent
+    
+    init(viewed:Bool) {
+        _vm = StateObject(wrappedValue: uniTestContent(viewed: viewed))
+    }
+    
     var body: some View {
         VStack {
 //            Image(systemName: "globe")
@@ -44,8 +59,8 @@ struct RandomContent: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}
