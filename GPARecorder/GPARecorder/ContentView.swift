@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Welcome to GPA Recorder from Team 10086")
+            Text("Welcome to GPA Recorder")
         }.font(.title)
             .padding();
         
