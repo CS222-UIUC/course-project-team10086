@@ -2,7 +2,7 @@
 //  CourseRow.swift
 //  GPARecorder
 //
-//  Created by 林明毅 on 2023/3/3.
+//  Created by Mingyi, Lin on 2023/3/3.
 //
 
 import SwiftUI
