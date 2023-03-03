@@ -12,7 +12,7 @@ struct GPARecorderApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView(viewed: true)
-            RandomContent()
+//            RandomContent()
         }
     }
 }
