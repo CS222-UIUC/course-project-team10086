@@ -15,3 +15,13 @@ extension Color {
     
     static let systemBackground = Color(uiColor: .systemBackground)
 }
+
+extension String {
+//    func categoryToLine(input: Array<String>) -> String {
+//        var result = ""
+//        for str in input {
+//            result = result + ", " + str
+//        }
+//        return result
+//    }
+}
