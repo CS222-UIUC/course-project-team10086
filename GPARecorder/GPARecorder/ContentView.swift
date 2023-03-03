@@ -24,25 +24,30 @@ struct ContentView: View {
     }
     
     var body: some View {
-        VStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundColor(.accentColor)
-//            Text("Welcome to GPA Recorder")
-
-//add new title info
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Welcome to GPA")
-            Text("Recorder by team 10086")
-        }.font(.title)
-            .padding();
-        
-        
-        
+        NavigationView {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 24) {
+                    //Title
+                    Text("Welcome to GPA Recorder")
+                        .font(.title2)
+                        .bold()
+                }
+                .padding()
+                .frame(maxWidth: .infinity)
+            }
+            .background(Color.background)
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                //Add course Icon
+                ToolbarItem {
+                    Image(systemName: "plus")
+                        .symbolRenderingMode(.palette)
+                        .foregroundStyle(Color.icon, .primary)
+                }
+            }
+        }
+        .navigationViewStyle(.stack)
     }
-    
 }
 
 struct RandomContent: View {

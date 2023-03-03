@@ -12,6 +12,7 @@
 		B96A247529A98BD400C43F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96A247429A98BD400C43F87 /* Assets.xcassets */; };
 		B96A247829A98BD400C43F87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96A247729A98BD400C43F87 /* Preview Assets.xcassets */; };
 		B96A247F29A98EF400C43F87 /* SyllabusImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A247E29A98EF400C43F87 /* SyllabusImport.swift */; };
+		EB40D2EA29B1AE7A00743873 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB40D2E929B1AE7A00743873 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		B96A247429A98BD400C43F87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B96A247729A98BD400C43F87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B96A247E29A98EF400C43F87 /* SyllabusImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllabusImport.swift; sourceTree = "<group>"; };
+		EB40D2E929B1AE7A00743873 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				B96A247029A98BD300C43F87 /* GPARecorderApp.swift */,
 				B96A247229A98BD300C43F87 /* ContentView.swift */,
+				EB40D2E929B1AE7A00743873 /* Extensions.swift */,
 				B96A247429A98BD400C43F87 /* Assets.xcassets */,
 				B96A247629A98BD400C43F87 /* Preview Content */,
 				B96A247E29A98EF400C43F87 /* SyllabusImport.swift */,
@@ -143,6 +146,7 @@
 				B96A247329A98BD300C43F87 /* ContentView.swift in Sources */,
 				B96A247F29A98EF400C43F87 /* SyllabusImport.swift in Sources */,
 				B96A247129A98BD300C43F87 /* GPARecorderApp.swift in Sources */,
+				EB40D2EA29B1AE7A00743873 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
