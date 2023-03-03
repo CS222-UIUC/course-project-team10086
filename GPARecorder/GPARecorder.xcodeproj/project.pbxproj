@@ -12,11 +12,38 @@
 		B96A247529A98BD400C43F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96A247429A98BD400C43F87 /* Assets.xcassets */; };
 		B96A247829A98BD400C43F87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96A247729A98BD400C43F87 /* Preview Assets.xcassets */; };
 		B96A247F29A98EF400C43F87 /* SyllabusImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A247E29A98EF400C43F87 /* SyllabusImport.swift */; };
+<<<<<<< HEAD
 		EB40D2EA29B1AE7A00743873 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB40D2E929B1AE7A00743873 /* Extensions.swift */; };
 		EB84E47E29B2947B00BAC267 /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB84E47D29B2947B00BAC267 /* CourseModel.swift */; };
 		EB84E48029B2983600BAC267 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB84E47F29B2983600BAC267 /* PreviewData.swift */; };
 		EB84E48229B299AF00BAC267 /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB84E48129B299AF00BAC267 /* CourseRow.swift */; };
+=======
+		B96A248929A9D95400C43F87 /* GPACoverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A248829A9D95400C43F87 /* GPACoverApp.swift */; };
+		B96A248B29A9D95400C43F87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A248A29A9D95400C43F87 /* ContentView.swift */; };
+		B96A248D29A9D95500C43F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96A248C29A9D95500C43F87 /* Assets.xcassets */; };
+		B96A249029A9D95500C43F87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96A248F29A9D95500C43F87 /* Preview Assets.xcassets */; };
+		B96A249A29A9D95500C43F87 /* GPACoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A249929A9D95500C43F87 /* GPACoverTests.swift */; };
+		B96A24A429A9D95500C43F87 /* GPACoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A24A329A9D95500C43F87 /* GPACoverUITests.swift */; };
+		B96A24A629A9D95500C43F87 /* GPACoverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A24A529A9D95500C43F87 /* GPACoverUITestsLaunchTests.swift */; };
+>>>>>>> kefin
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B96A249629A9D95500C43F87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B96A246529A98BD300C43F87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B96A248529A9D95400C43F87;
+			remoteInfo = GPACover;
+		};
+		B96A24A029A9D95500C43F87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B96A246529A98BD300C43F87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B96A248529A9D95400C43F87;
+			remoteInfo = GPACover;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B96A246D29A98BD300C43F87 /* GPARecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPARecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,14 +52,48 @@
 		B96A247429A98BD400C43F87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B96A247729A98BD400C43F87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B96A247E29A98EF400C43F87 /* SyllabusImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllabusImport.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		EB40D2E929B1AE7A00743873 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EB84E47D29B2947B00BAC267 /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
 		EB84E47F29B2983600BAC267 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		EB84E48129B299AF00BAC267 /* CourseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRow.swift; sourceTree = "<group>"; };
+=======
+		B96A248629A9D95400C43F87 /* GPACover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPACover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96A248829A9D95400C43F87 /* GPACoverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPACoverApp.swift; sourceTree = "<group>"; };
+		B96A248A29A9D95400C43F87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B96A248C29A9D95500C43F87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B96A248F29A9D95500C43F87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B96A249529A9D95500C43F87 /* GPACoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPACoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96A249929A9D95500C43F87 /* GPACoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPACoverTests.swift; sourceTree = "<group>"; };
+		B96A249F29A9D95500C43F87 /* GPACoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPACoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96A24A329A9D95500C43F87 /* GPACoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPACoverUITests.swift; sourceTree = "<group>"; };
+		B96A24A529A9D95500C43F87 /* GPACoverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPACoverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+>>>>>>> kefin
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B96A246A29A98BD300C43F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96A248329A9D95400C43F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96A249229A9D95500C43F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96A249C29A9D95500C43F87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,6 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				B96A246F29A98BD300C43F87 /* GPARecorder */,
+				B96A248729A9D95400C43F87 /* GPACover */,
+				B96A249829A9D95500C43F87 /* GPACoverTests */,
+				B96A24A229A9D95500C43F87 /* GPACoverUITests */,
 				B96A246E29A98BD300C43F87 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				B96A246D29A98BD300C43F87 /* GPARecorder.app */,
+				B96A248629A9D95400C43F87 /* GPACover.app */,
+				B96A249529A9D95500C43F87 /* GPACoverTests.xctest */,
+				B96A249F29A9D95500C43F87 /* GPACoverUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,6 +149,42 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B96A248729A9D95400C43F87 /* GPACover */ = {
+			isa = PBXGroup;
+			children = (
+				B96A248829A9D95400C43F87 /* GPACoverApp.swift */,
+				B96A248A29A9D95400C43F87 /* ContentView.swift */,
+				B96A248C29A9D95500C43F87 /* Assets.xcassets */,
+				B96A248E29A9D95500C43F87 /* Preview Content */,
+			);
+			path = GPACover;
+			sourceTree = "<group>";
+		};
+		B96A248E29A9D95500C43F87 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B96A248F29A9D95500C43F87 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B96A249829A9D95500C43F87 /* GPACoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				B96A249929A9D95500C43F87 /* GPACoverTests.swift */,
+			);
+			path = GPACoverTests;
+			sourceTree = "<group>";
+		};
+		B96A24A229A9D95500C43F87 /* GPACoverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B96A24A329A9D95500C43F87 /* GPACoverUITests.swift */,
+				B96A24A529A9D95500C43F87 /* GPACoverUITestsLaunchTests.swift */,
+			);
+			path = GPACoverUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -102,6 +205,59 @@
 			productReference = B96A246D29A98BD300C43F87 /* GPARecorder.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B96A248529A9D95400C43F87 /* GPACover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96A24A729A9D95500C43F87 /* Build configuration list for PBXNativeTarget "GPACover" */;
+			buildPhases = (
+				B96A248229A9D95400C43F87 /* Sources */,
+				B96A248329A9D95400C43F87 /* Frameworks */,
+				B96A248429A9D95400C43F87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPACover;
+			productName = GPACover;
+			productReference = B96A248629A9D95400C43F87 /* GPACover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B96A249429A9D95500C43F87 /* GPACoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96A24AA29A9D95500C43F87 /* Build configuration list for PBXNativeTarget "GPACoverTests" */;
+			buildPhases = (
+				B96A249129A9D95500C43F87 /* Sources */,
+				B96A249229A9D95500C43F87 /* Frameworks */,
+				B96A249329A9D95500C43F87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B96A249729A9D95500C43F87 /* PBXTargetDependency */,
+			);
+			name = GPACoverTests;
+			productName = GPACoverTests;
+			productReference = B96A249529A9D95500C43F87 /* GPACoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B96A249E29A9D95500C43F87 /* GPACoverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96A24AD29A9D95500C43F87 /* Build configuration list for PBXNativeTarget "GPACoverUITests" */;
+			buildPhases = (
+				B96A249B29A9D95500C43F87 /* Sources */,
+				B96A249C29A9D95500C43F87 /* Frameworks */,
+				B96A249D29A9D95500C43F87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B96A24A129A9D95500C43F87 /* PBXTargetDependency */,
+			);
+			name = GPACoverUITests;
+			productName = GPACoverUITests;
+			productReference = B96A249F29A9D95500C43F87 /* GPACoverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -114,6 +270,17 @@
 				TargetAttributes = {
 					B96A246C29A98BD300C43F87 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					B96A248529A9D95400C43F87 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B96A249429A9D95500C43F87 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B96A248529A9D95400C43F87;
+					};
+					B96A249E29A9D95500C43F87 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B96A248529A9D95400C43F87;
 					};
 				};
 			};
@@ -131,6 +298,9 @@
 			projectRoot = "";
 			targets = (
 				B96A246C29A98BD300C43F87 /* GPARecorder */,
+				B96A248529A9D95400C43F87 /* GPACover */,
+				B96A249429A9D95500C43F87 /* GPACoverTests */,
+				B96A249E29A9D95500C43F87 /* GPACoverUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -142,6 +312,29 @@
 			files = (
 				B96A247829A98BD400C43F87 /* Preview Assets.xcassets in Resources */,
 				B96A247529A98BD400C43F87 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96A248429A9D95400C43F87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96A249029A9D95500C43F87 /* Preview Assets.xcassets in Resources */,
+				B96A248D29A9D95500C43F87 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96A249329A9D95500C43F87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96A249D29A9D95500C43F87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +355,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B96A248229A9D95400C43F87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96A248B29A9D95400C43F87 /* ContentView.swift in Sources */,
+				B96A248929A9D95400C43F87 /* GPACoverApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96A249129A9D95500C43F87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96A249A29A9D95500C43F87 /* GPACoverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96A249B29A9D95500C43F87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96A24A629A9D95500C43F87 /* GPACoverUITestsLaunchTests.swift in Sources */,
+				B96A24A429A9D95500C43F87 /* GPACoverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B96A249729A9D95500C43F87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B96A248529A9D95400C43F87 /* GPACover */;
+			targetProxy = B96A249629A9D95500C43F87 /* PBXContainerItemProxy */;
+		};
+		B96A24A129A9D95500C43F87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B96A248529A9D95400C43F87 /* GPACover */;
+			targetProxy = B96A24A029A9D95500C43F87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B96A247929A98BD400C43F87 /* Debug */ = {
@@ -335,6 +567,134 @@
 			};
 			name = Release;
 		};
+		B96A24A829A9D95500C43F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GPACover/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Teamp10086.GPACover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B96A24A929A9D95500C43F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GPACover/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Teamp10086.GPACover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B96A24AB29A9D95500C43F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Teamp10086.GPACoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPACover.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GPACover";
+			};
+			name = Debug;
+		};
+		B96A24AC29A9D95500C43F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Teamp10086.GPACoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPACover.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GPACover";
+			};
+			name = Release;
+		};
+		B96A24AE29A9D95500C43F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Teamp10086.GPACoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPACover;
+			};
+			name = Debug;
+		};
+		B96A24AF29A9D95500C43F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Teamp10086.GPACoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPACover;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -352,6 +712,33 @@
 			buildConfigurations = (
 				B96A247C29A98BD400C43F87 /* Debug */,
 				B96A247D29A98BD400C43F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B96A24A729A9D95500C43F87 /* Build configuration list for PBXNativeTarget "GPACover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96A24A829A9D95500C43F87 /* Debug */,
+				B96A24A929A9D95500C43F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B96A24AA29A9D95500C43F87 /* Build configuration list for PBXNativeTarget "GPACoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96A24AB29A9D95500C43F87 /* Debug */,
+				B96A24AC29A9D95500C43F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B96A24AD29A9D95500C43F87 /* Build configuration list for PBXNativeTarget "GPACoverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96A24AE29A9D95500C43F87 /* Debug */,
+				B96A24AF29A9D95500C43F87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
