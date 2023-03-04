@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  GPARecorder
 //
-//  Created by Mengqi Lin on 2/24/23.
+//  Created by Kaifeng Lin on 2/24/23.
 //
 
 import SwiftUI
