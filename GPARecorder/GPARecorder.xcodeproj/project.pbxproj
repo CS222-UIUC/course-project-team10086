@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B967FB9929CE661100D72F0E /* ImportedGPA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B967FB9829CE661100D72F0E /* ImportedGPA.swift */; };
 		B96A247129A98BD300C43F87 /* GPARecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A247029A98BD300C43F87 /* GPARecorderApp.swift */; };
 		B96A247329A98BD300C43F87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A247229A98BD300C43F87 /* ContentView.swift */; };
 		B96A247529A98BD400C43F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96A247429A98BD400C43F87 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B967FB9829CE661100D72F0E /* ImportedGPA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportedGPA.swift; sourceTree = "<group>"; };
 		B96A246D29A98BD300C43F87 /* GPARecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPARecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96A247029A98BD300C43F87 /* GPARecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPARecorderApp.swift; sourceTree = "<group>"; };
 		B96A247229A98BD300C43F87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				B96A247029A98BD300C43F87 /* GPARecorderApp.swift */,
+				B967FB9829CE661100D72F0E /* ImportedGPA.swift */,
 				B96A247229A98BD300C43F87 /* ContentView.swift */,
 				EB84E48129B299AF00BAC267 /* CourseRow.swift */,
 				EB84E47D29B2947B00BAC267 /* CourseModel.swift */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B967FB9929CE661100D72F0E /* ImportedGPA.swift in Sources */,
 				B96A247329A98BD300C43F87 /* ContentView.swift in Sources */,
 				EB84E47E29B2947B00BAC267 /* CourseModel.swift in Sources */,
 				EB84E48029B2983600BAC267 /* PreviewData.swift in Sources */,
