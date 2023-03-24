@@ -7,25 +7,47 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundColor(.accentColor)
-//            Text("Welcome to GPA Recorder")
+class uniTestContent:ObservableObject {
+    @Published var viewed : Bool
+    
+    init(viewed: Bool) {
+        self.viewed = viewed
+    }
+}
 
-//add new title info
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Welcome to GPA Recorder by team 10086")
-        }.font(.title)
-            .padding();
-        
-        
+struct ContentView: View {
+    
+    @StateObject private var vm : uniTestContent
+    
+    init(viewed:Bool) {
+        _vm = StateObject(wrappedValue: uniTestContent(viewed: viewed))
     }
     
+    var body: some View {
+        NavigationView {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 24) {
+                    //Title
+                    Text("Welcome to GPA Recorder")
+                        .font(.title2)
+                        .bold()
+                }
+                .padding()
+                .frame(maxWidth: .infinity)
+            }
+            .background(Color.background)
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                //Add course Icon
+                ToolbarItem {
+                    Image(systemName: "plus")
+                        .symbolRenderingMode(.palette)
+                        .foregroundStyle(Color.icon, .primary)
+                }
+            }
+        }
+        .navigationViewStyle(.stack)
+    }
 }
 
 struct RandomContent: View {
@@ -44,6 +66,6 @@ struct RandomContent: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(viewed: true)
     }
 }
