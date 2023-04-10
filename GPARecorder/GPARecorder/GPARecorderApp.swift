@@ -9,10 +9,11 @@ import CoreData
 import Combine
 @main
 struct GPARecorderApp: App {
+    @StateObject var courseListVM = CourseListViewModel()
     var body: some Scene {
         WindowGroup {
             ContentView(viewed: true)
-//            RandomContent()
+                .environmentObject(courseListVM)
         }
     }
 }

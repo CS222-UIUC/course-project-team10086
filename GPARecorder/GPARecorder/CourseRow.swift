@@ -43,7 +43,7 @@ func categoryToLine(input: Array<String>) -> String {
 }
 
 func gradeDisplay(input: Float) -> String {
-    var result = "\(input)%"
+    let result = "\(input)%"
     return result
 }
 

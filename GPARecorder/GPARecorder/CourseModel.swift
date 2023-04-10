@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Course : Identifiable {
+struct Course : Identifiable, Hashable {
     let id: Int
     let name: String
     var categories: Array<String> = Array()
