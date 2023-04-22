@@ -23,7 +23,11 @@ struct CourseDet: View {
                 .padding()
                 
                 //list all type and weight
-                
+                HStack {
+//                    for cat in cou.course.categories {
+//
+//                    }
+                }
             }
             .padding([.top, .bottom], 8)
             //        .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
