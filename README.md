@@ -16,7 +16,7 @@ Checking and calculating grades for each course has been an annoying task. Our a
 
 ## installation instructions
 1. To install this project, install xcode [here](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
-2. Click ```Open a project or file```
+2. Click ```Open a project or file``` and select this folder
 3. Click the ```Play & Run``` button at the upper-left corner of the window
 
 ## Project Instructions
