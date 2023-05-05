@@ -12,8 +12,12 @@ Checking and calculating grades for each course has been an annoying task. Our a
 
 
 ## Technical Architectures
+![Assignment Aggregator Technical Architecture](https://user-images.githubusercontent.com/73103203/236536444-81aab033-cff7-408f-95e9-bba8be0fa08d.png)
 
-## Development
+## installation instructions
+1. To install this project, install xcode [here](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
+2. Click ```Open a project or file```
+3. Click the ```Play & Run``` button at the upper-left corner of the window
 
 ## Project Instructions
 1. To add course to the course list, click the ```+``` located on the upper-right corner of the screen. To edit/delete existing courses, click the ```Edit``` located on the upper-left of the screen. 
