@@ -1,9 +1,9 @@
 # Grade Recorder App
 by team10086
-- **Mingyi Lin**: Developed Front-end Course-UI/Assignment UI
-- **Kaifeng Lin**: 
-- **Zihan Qiu**:
-- **Weiqi Zhang**:
+- **Mingyi Lin**
+- **Kaifeng Lin** 
+- **Zihan Qiu**
+- **Weiqi Zhang**
 
 ## Introduction
 The Grade Recorder app is designed for students to track their grades. User can input what class they take and what type of assignment they have for each class. Then, the app will change the grade accordingly as the user input more of his/her grades. 
