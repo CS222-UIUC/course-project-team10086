@@ -1,9 +1,11 @@
 # Grade Recorder App
 by team10086
-- **Mingyi Lin**
-- **Kaifeng Lin** 
-- **Zihan Qiu**
-- **Weiqi Zhang**
+
+## Developers
+- **Mingyi Lin**: Create the user interface for the project and create corresponding pages.
+- **Kaifeng Lin**: Test codes and maintain the repository, help develope the backends.
+- **Zihan Qiu**: Develop the backend system by importing data and manage the data at the backend.
+- **Weiqi Zhang**: Create the backend APIs, and identify the problems in the current system.
 
 ## Introduction
 The Grade Recorder app is designed for students to track their grades. User can input what class they take and what type of assignment they have for each class. Then, the app will change the grade accordingly as the user input more of his/her grades. 
